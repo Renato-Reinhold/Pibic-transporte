@@ -1,0 +1,52 @@
+body{
+    font-family: 'Noto Sans', 'Karla' , sans-serif;
+    font-size: 20px;
+    color: black;
+}
+h3{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.panel{
+    padding-left: 40px;
+    padding-top: 20px;
+    border: white;
+}
+input{
+    color: black;
+}
+select{
+    border-radius: 5px;
+    color: black;
+}
+label{
+    padding-bottom: 10px;
+    color: black;
+}
+p{
+    !important font-size: 50rem;
+}
+.parallax {
+
+    /* imagem usada */
+    background-image: url("img/green.jpg");
+
+    /* especificando o tamanho */
+    min-height: 500px; 
+
+    /* criando o efeito de scroll */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swal-overlay {
+  background-color: rgba(43, 165, 137, 0.45);
+}
+
+.help-block {
+    font-size: 1.4rem;
+}

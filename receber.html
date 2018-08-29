@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang = "pt-br">
+    <head>
+        <title>Formulário | IFSC</title>
+        
+        <link rel="icon" href="https://use.fontawesome.com/releases/v5.0.12/svgs/solid/bus.svg" type="image/ico" />
+
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+        <link rel="stylesheet" type="text/css" href="custom.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <meta charset="UTF-8">
+    </head>
+    <body class="parallax">
+        <header>
+                <div class="container-fluid panel" style="margin-top: -3rem; padding-bottom: 12rem;" >
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="navbar-header">
+                                <a href="http://gaspar.ifsc.edu.br/#" class="navbar-brand">
+                                    <img src="img\gaspar_horizontal_marca2015_PNG.png" alt="IFSC" class="img-responsive" width="350" style=" margin-top: 30px; " />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </header>
+    </body>
+</html>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script type="text/javascript">
+        
+        swal("Dados enviados com sucesso.", "Obrigado pela participação..." , "success",{
+            buttons: ['Voltar', 'Sair'],
+        })
+        .then((value) => {
+            if(value){
+                location.href = "http://ifsc.edu.br/"
+            }else{
+                location.href = "http://info.gaspar.ifsc.edu.br/pibic/formulario.php";
+            }
+
+        });
+
+    </script>

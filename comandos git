@@ -1,0 +1,30 @@
+
+
+
+git clone http://REPOSITORIO/projeto.git  NOMEDAPASTA   -> Comando para fazer o clone do repositorio. Apenas na primeira vez 
+
+
+
+git status   -> (dentro da pasta do repositório) Mostra a situação do repositório (arquivos modificados / deletados / criados)
+
+git add  NOMEDOARQUIVO -> adiciona os arquivos para envio ao repositório.
+
+
+git commit   -> Envia/registra os arquivos modificados no repositório local
+
+
+git push -> Envia para o repositório remoto (Bitbucket) as modificações comitadas.
+
+
+
+git pull -> Sincroniza o repositório local (do teu computador) com o repositório remoto (bitbucket)
+
+
+
+Chegou para trabalhar -> 
+ - git pull
+- modifica/cria/deleta arquivos
+- git pull
+- git add
+- git commit
+- git push
